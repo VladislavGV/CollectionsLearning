@@ -159,6 +159,21 @@ public class Main {
 
 
 
+        Map<Integer, String> carMap = new HashMap<>();
+        carMap.clear();
+
+        carMap.put(1, "Ferrari Spider");
+        carMap.put(2, "Veyron");
+        carMap.put(3, "Mercedes Benz");
+        carMap.put(4, "Ford gt300");
+        carMap.put(5, "Fiat");
+
+        for (Map.Entry<Integer, String> item : carMap.entrySet()){
+            System.out.printf("Key: %d | value: %s \n", item.getKey(), item.getValue());
+        }
+
+
+
     }
 
 
