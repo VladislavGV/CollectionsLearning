@@ -169,10 +169,8 @@ public class Main {
         carMap.put(5, "Fiat");
 
         for (Map.Entry<Integer, String> item : carMap.entrySet()){
-            System.out.printf("Key: %d | value: %s \n", item.getKey(), item.getValue());
+            System.out.printf("Номер п/п: %d | Марка: %s \n", item.getKey(), item.getValue());
         }
-
-
 
     }
 
